@@ -1,0 +1,34 @@
+.aboutUs{
+	margin: 35px;
+	padding: 50px;
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+}
+
+.circle{
+	position: relative;
+	overflow: hidden;
+}
+
+.circle .circle1{
+	background-image: url("../../assets/circleImg.jpg");
+	width: 500px;
+	height: 500px;
+	float: left;
+	border-radius: 50%;
+	shape-outside: circle();
+}
+.circle img {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	shape-outside: circle();
+}
+
+.aboutUs h2{
+
+}
+
+.aboutUs p {
+}
